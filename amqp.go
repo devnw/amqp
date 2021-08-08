@@ -12,9 +12,9 @@ import (
 	"fmt"
 	"sync"
 
-	"atomizer.io/engine"
 	"github.com/google/uuid"
 	"github.com/streadway/amqp"
+	"go.atomizer.io/engine"
 )
 
 const (
