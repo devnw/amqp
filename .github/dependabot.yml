@@ -4,11 +4,11 @@ updates:
   directory: "/"
   schedule:
     interval: daily
-  default_labels:
-      - "automerge"
+  labels:
+    - "automerge"
 - package-ecosystem: "github-actions"
   directory: "/"
   schedule:
     interval: "daily"
-  default_labels:
-      - "automerge"
+  labels:
+    - "automerge"
